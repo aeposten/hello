@@ -1,7 +1,8 @@
-const Greeter = () => {
+
+const Greeter = ({name}) => {
 	return (
 	<>
-		<p>Hello World!</p>
+		<p>Hello {name}</p>
 	</>
     )
 };

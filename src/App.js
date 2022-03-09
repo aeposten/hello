@@ -1,11 +1,11 @@
 import Greeter from "./Greeter";
 
 function App() {
-
+  let name = "Amy"
   
   return (
     <div>
-      <Greeter />
+      <Greeter name={name}/>
     </div>
   );
 }
